@@ -65,3 +65,9 @@ th a:visited {
 #resultsDiv {
     margin: 10px;
 }
+
+#_noResults {
+    margin: 18px 10px;
+    color: rgb(235, 12, 12);
+    font-size: 24px;
+}

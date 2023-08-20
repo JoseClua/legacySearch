@@ -124,7 +124,7 @@ function search() {
             if (num > 0) {
                 $("#resultsDiv").html(buildResults(false));
             } else {
-                $("#resultsDiv").html('No results found');
+                $("#resultsDiv").html('<p id="_noResults">No results found</p>');
             }
             
           }, 1000);        

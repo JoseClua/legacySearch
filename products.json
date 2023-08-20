@@ -25,6 +25,14 @@
         {
             "price": 510,
             "store": "The Famous Store"
+        },
+        {
+            "price": 699,
+            "store": "Mall Store"
+        },
+        {
+            "price": 512,
+            "store": "People Store"
         }]        
     },
     {
@@ -57,6 +65,14 @@
         {
             "price": 2200,
             "store": "The Store"
+        },
+        {
+            "price": 2000,
+            "store": "Some Store"
+        },
+        {
+            "price": 2999,
+            "store": "City Store"
         }]        
     },
     {
@@ -69,6 +85,14 @@
         {
             "price": 200,
             "store": "The Store"
+        },
+        {
+            "price": 180,
+            "store": "The Shoe Store"
+        },
+        {
+            "price": 199,
+            "store": "Shoes & Co"
         }]        
     },
     {
@@ -79,12 +103,20 @@
             "store": "Mega Store"
         },
         {
-            "price": 290,
+            "price": 311,
             "store": "The Store"
+        },
+        {
+            "price": 333,
+            "store": "The Shoe Store"
+        },
+        {
+            "price": 343,
+            "store": "Shoes & Co"
         }]        
     },
     {
-        "id": 1005,
+        "id": 1006,
         "product": "Nike Racer",
         "stores": [{
             "price": 310,
@@ -93,10 +125,22 @@
         {
             "price": 290,
             "store": "The Store"
+        },
+        {
+            "price": 212,
+            "store": "The Store"
+        },
+        {
+            "price": 199,
+            "store": "The Shoe Store"
+        },
+        {
+            "price": 211,
+            "store": "Shoes & Co"
         }]        
     },
     {
-        "id": 1006,
+        "id": 1007,
         "product": "Nike Dunk",
         "stores": [{
             "price": 310,
@@ -105,6 +149,18 @@
         {
             "price": 290,
             "store": "The Store"
+        },
+        {
+            "price": 199,
+            "store": "The Store"
+        },
+        {
+            "price": 221,
+            "store": "The Shoe Store"
+        },
+        {
+            "price": 224,
+            "store": "Shoes & Co"
         }]        
     }
 ]

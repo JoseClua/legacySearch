@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1001,
+        "product": "Iphone 14 Pro",
+        "stores": [{
+            "price": 600,
+            "store": "Super Store"
+        },
+        {
+            "price": 550,
+            "store": "Mega Store"
+        },
+        {
+            "price": 700,
+            "store": "The Store"
+        },
+        {
+            "price": 660,
+            "store": "City Store"
+        },
+        {
+            "price": 599,
+            "store": "Shopping Store"
+        },
+        {
+            "price": 510,
+            "store": "The Famous Store"
+        }]        
+    },
+    {
+        "id": 1002,
+        "product": "Google Pixel Cell Phone 7",
+        "stores": [{
+            "price": 440,
+            "store": "Super Store"
+        },
+        {
+            "price": 450,
+            "store": "Mega Store"
+        },
+        {
+            "price": 400,
+            "store": "Some Store"
+        },
+        {
+            "price": 550,
+            "store": "City Store"
+        }]        
+    },
+    {
+        "id": 1003,
+        "product": "Mac Book Pro",
+        "stores": [{
+            "price": 1800,
+            "store": "Mega Store"
+        },
+        {
+            "price": 2200,
+            "store": "The Store"
+        }]        
+    },
+    {
+        "id": 1004,
+        "product": "Nike Air Maxx II",
+        "stores": [{
+            "price": 150,
+            "store": "Mega Store"
+        },
+        {
+            "price": 200,
+            "store": "The Store"
+        }]        
+    },
+    {
+        "id": 1005,
+        "product": "Nike Air Zoom",
+        "stores": [{
+            "price": 310,
+            "store": "Mega Store"
+        },
+        {
+            "price": 290,
+            "store": "The Store"
+        }]        
+    },
+    {
+        "id": 1005,
+        "product": "Nike Racer",
+        "stores": [{
+            "price": 310,
+            "store": "Mega Store"
+        },
+        {
+            "price": 290,
+            "store": "The Store"
+        }]        
+    },
+    {
+        "id": 1006,
+        "product": "Nike Dunk",
+        "stores": [{
+            "price": 310,
+            "store": "Mega Store"
+        },
+        {
+            "price": 290,
+            "store": "The Store"
+        }]        
+    }
+]

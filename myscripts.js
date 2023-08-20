@@ -72,9 +72,9 @@ function buildItems(isSortedSearch) {
     sortedData.forEach(item => {
         
         items += '<tr class="' + lines[n%2] + '">' +
-                '    <td>' + item.productId + '</td>' +
-                '    <td>' + item.productName + '</td>' +
-                '    <td>' + item.storeName + '</td>' +
+                '    <td id="_idCell' + n + '">' + item.productId + '</td>' +
+                '    <td id="_prodCell' + n + '">' + item.productName + '</td>' +
+                '    <td id="_storeCell' + n + '">' + item.storeName + '</td>' +
                 '    <td id="_priceCell' + n + '" style="text-align: right;">' + USDollar.format(item.price)  + '</td>' +
                 '</tr>';
 

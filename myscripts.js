@@ -85,9 +85,9 @@ function buildItems(isSortedSearch) {
 
 function buildResults(isSortedSearch) {
 
-    var results = '<table>' +
+    var results = '<table id="_resultsTable">' +
     '<tr>' +
-    '    <td colspan="4">' + num + ' results:</td>' +
+    '    <td colspan="4"><span id="_resultsCount">' + num + ' results:</span></td>' +
     '</tr>' +
     '<tr class="headerLine">' +
     '    <th style="width: 100px;text-align: left;">Product Id</th>' +

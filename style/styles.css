@@ -1,0 +1,151 @@
+body {
+    background-color: #e2e0e0;
+    color:rgb(24, 24, 24);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+
+#logoUser {
+    margin: 4px 20px 4px 20px;
+}
+
+#loginName {
+    margin: 4px 20px;
+    color: rgb(4, 19, 24);
+    font-size: 32px;
+}
+
+#logout {
+    margin: 4px 20px 0 20px;
+    color: rgb(4, 19, 24);
+    font-size: 22px;
+}
+
+#logout:hover {
+    color: rgb(9, 1, 11);
+}
+
+#logout:visited {
+    color: rgb(7, 2, 16);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#divLogo {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#productFinder {    
+    margin: 0 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(44, 44, 47);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#spanTitle {
+    font-size: 28px;
+    color: rgb(44, 44, 47);
+    margin: 10px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+th, td {
+    padding: 6px;
+}
+
+th a {
+    color: lightblue;
+}
+
+th a:hover {
+    color: lightblue;
+}
+
+th a:visited {
+    color: lightblue;
+}
+
+#myDiv {
+    color: orange;
+}
+
+#searchText {
+    width: 500px;
+    font-size: 30px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.searchButton {
+    height: 42px;
+    width: 100px;
+    padding: 2px;
+    margin: 2px;
+    font-size: 22px;
+    background-color: rgb(12, 12, 196, 0.797);
+    color: white;
+    font-weight: 900;
+
+}
+.headerLine{
+    background-color: navy;
+    color: aliceblue;
+}
+.oddLine{
+    background-color: white;
+}
+.evenLine{
+    background-color: #f2f2f2;
+}
+
+#_resultsCount {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+#resultsDiv {
+    margin: 10px;
+}
+
+#_noResults {
+    margin: 18px 10px;
+    color: rgb(235, 12, 12);
+    font-size: 24px;
+}
+
+a {
+    color: #0176d3;
+}
+
+a:hover {
+    color: #0176d3;
+}
+
+a:visited {
+    color: #0176d3;
+}

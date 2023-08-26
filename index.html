@@ -4,24 +4,37 @@
 <head>
     <title>Legacy Search</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="myscripts.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/myscripts.js"></script>
+    <link rel="stylesheet" href="style/styles.css">
 
 </head>
 
 <body>
 
     <header>
-        <h1>Legacy Product search</h1>
+        <div id="divLogo">
+            <img id="logo" src="img/search64.png" />
+            <div id="productFinder">Product Finder</div>
+        </div>
+        
+
+        <div id="userInfo">
+            <img id="logoUser" src="img/user64.png" />
+            <div id="loginName">User</div>
+            <a id="logout" href="login.html">Sign Out</a>
+        </div>
+        
     </header>
 
     <main id="container">
 
+        <span id="spanTitle">Product search</span>
+
         <table>
             <tr>
                 <td><input id="searchText" type="text" placeholder="keyword" /></td>
-                <td><button class="legacyButton" type="button" onclick="search()">Search</button></td>
-                <td><button class="legacyButton" type="button" onclick="clearSearch()">Clear</button></td>
+                <td><button class="searchButton" type="button" onclick="search()">Search</button></td>
+                <td><button class="searchButton" type="button" onclick="clearSearch()">Clear</button></td>
             </tr>
         </table>
 

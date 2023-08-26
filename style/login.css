@@ -1,0 +1,97 @@
+body {
+    background-color: #e2e0e0;
+    color:rgb(24, 24, 24);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#divLogo {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#productFinder {    
+    margin: 0 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(44, 44, 47);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input {
+    font-size: 22px;
+    width: 300px;
+    padding: 8px;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    font-size: 22px;
+}
+
+.loginButton {
+    height: 50px;
+    width: 100px;
+    padding: 2px;
+    margin: 20px;
+    font-size: 22px;
+    background-color: rgba(12, 12, 196, 0.797);
+    color: white;
+}
+
+#tableLogin {
+    margin: 30px auto;
+    border-color: rgb(174, 127, 255);
+}
+
+th, td {
+    padding: 6px;
+}
+
+th a {
+    color: lightblue;
+}
+
+th a:hover {
+    color: lightblue;
+}
+
+th a:visited {
+    color: lightblue;
+}
+
+#myDiv {
+    color: orange;
+}
+
+#resultsDiv {
+    margin: 10px;
+    color: rgb(235, 12, 12);
+    font-size: 24px;
+}
+
+#_noResults {
+    margin: 18px 10px;
+    color: rgb(235, 12, 12);
+    font-size: 22px;
+}
+
+.forgotPassword {
+    color: #0176d3;
+    font-size: 20px !important;
+}

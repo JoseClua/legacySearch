@@ -108,7 +108,7 @@ function buildResults(isSortedSearch) {
     '    <th style="width: 140px;text-align: center;">Product Id</th>' +
     '    <th style="width: 400px;text-align: center;">Product Name</th>' +
     '    <th style="width: 400px;text-align: center;">Store</th>' +
-    '    <th style="width: 150px;text-align: center;"><a onclick="sortByPrice()" href="#">Price</a></th>' +
+    '    <th style="width: 150px;text-align: center;"><a id="sortLink" onclick="sortByPrice()" href="#">Price</a></th>' +
     '    <th style="width: 120px;text-align: center;">&nbsp;</th>' +
     '</tr>' +
 
